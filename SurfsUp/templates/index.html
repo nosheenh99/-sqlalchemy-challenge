@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <title>Climate App</title>
+
+</head>
+
+<body>
+
+  <div class="container" style="padding-top: 20px;">
+
+    <h1 class="my-4">Climate App</h1>
+
+    <h2>Available Routes</h2>
+    <hr>
+
+    <ul>
+      <li>
+        <a href="/api/v1.0/precipitation" data-toggle="tooltip"
+          data-title="View the last year's precipitation data">Precipitation</a>
+      </li>
+
+      <li>
+        <a href="/api/v1.0/stations" data-toggle="tooltip" data-title="View the list of weather stations">Stations</a>
+      </li>
+
+      <li>
+        <a href="/api/v1.0/tobs" data-toggle="tooltip"
+          data-title="View the temperature observations of the most active station for the last year">Temperature
+          Observations</a>
+      </li>
+
+      <li>
+        <a href="/api/v1.0/start" data-toggle="tooltip"
+          data-title="View temperature stats from a start date">Temperature Statistics (Start Date)</a>
+      </li>
+
+      <li>
+        <a href="/api/v1.0/start/end" data-toggle="tooltip"
+          data-title="View temperature stats between a range of dates">Temperature Statistics (Start & End Date)</a>
+      </li>
+
+    </ul>
+
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
